@@ -1,0 +1,46 @@
+body, html {
+    margin: 4px;
+    padding: 4px;
+    font-size: 100%;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/QIAQ9Rd/white-music-background_njs6jzi3__F0000.png');
+}
+
+.music{
+    float: right;
+    border-style:dashed;
+    border-color:#287EC7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+.left {
+    width: 20%;
+    float: left;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li {    
+    margin: 1px 0;
+    border: 1px solid #999;
+}
+.nav li a {
+    display: block;
+    line-height: 3em;
+    width: 100%;
+    text-decoration: none;
+}
+
+.images {
+    border: 1px dotted #999;
+}
+
+
+
+

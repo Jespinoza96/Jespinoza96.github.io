@@ -1,0 +1,130 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  background-image: url('http://ak8.picdn.net/shutterstock/videos/9133178/thumb/1.jpg');
+  text-shadow: 0.25px 0.25px 0.25px #ffffff;
+}
+
+header {
+  padding: 30px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://wallpapercave.com/wp/E04DVb3.jpg');
+  background-size: cover;
+  border: 3px dashed #ffffff;
+  color: #ffffff;
+  height: 500px;
+  
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 0;
+  color: #000000;
+  
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #000000;
+}
+
+.boxed {
+  border:1px solid white;
+  border-radius: 30px;
+  background: #ffffff;
+}
+
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+  border: 3px solid #ffffff;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.col-sm-6 {
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Helvetica',sans-serif;
+  text-shadow: #ffffff;
+}
+
+.copy {
+  font-size: 16px;
+  text-shadow: none;
+  color: black;
+  width: 70%;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #000000;
+  text-shadow: none;
+  background-color: #f4edda;
+  font-size: 16px;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #f4edda;
+  color: #000000;
+  margin: 0 0 30px;
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
